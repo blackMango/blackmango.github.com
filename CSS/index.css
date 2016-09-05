@@ -1,0 +1,468 @@
+@charset "utf-8";
+/* CSS Document */
+#section > .banner {
+	position:relative;
+}
+#section > .banner .bannerbox {
+	width:100%;
+}
+#section > .banner .bannerbox img {
+	width:100%;
+	float:left;
+}
+#section > .banner .ctrlbox {
+	height:20px;
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	margin-left:-36px;
+}
+#section > .banner .ctrlboxsmall {
+	position:relative;
+}
+
+.current {
+	background-color:#cc4292 !important;
+}
+#section > .banner .ctrlboxsmall .ctrl {
+	width:8px;
+	height:8px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background-color:#e6c2db;
+	border:1px solid #cc4292;
+	margin:6px 5px;
+	float:left;
+	opacity:0.8;
+	cursor:pointer;
+}
+#section > .hot {
+	border:1px solid #dcdcdc;
+	background-color:#FFF;
+	padding:0px 10px;
+	margin:10px 0px;
+	
+}
+#section > .hot h2 {
+	font-size:16px;
+	line-height:32px;
+	float:left;
+}
+#section > .hot hgroup {
+	float:left;
+	
+}
+#section > .hot hgroup h4 {
+	line-height:32px;
+	font-size:16px;
+	font-weight:normal;
+}
+#section > .hot .hotbox {
+	height:32px;
+	overflow:hidden;
+}
+#section > .ad01 figure {
+	width:32%;
+	/*height:160px;*/
+	float:left;
+}
+#section > .ad01 figure:nth-child(1) {
+	background-color:#b4dedb;
+} 
+#section > .ad01 figure:nth-child(2) {
+	background-color:#fbe5ac;
+	margin:0px 2%;
+} 
+#section > .ad01 figure:nth-child(3) {
+	background-color:#dcb6da;
+}
+#section > .ad01 figure img {
+	display:inline-block;
+	width:86%;
+	margin:0px 7% -10px;
+}
+#section > .ad01 figure figcaption {
+	margin:10px 0px;
+}
+#section > .ad01 figure h3 {
+	font-size:20px;
+	line-height:25px;
+	text-align:center;
+}
+#section > .ad01 figure h4 {
+	font-size:14px;
+	line-height:25px;
+	text-align:center;
+}
+#section > .ad01 figure:nth-child(1) h3,#section > .ad01 figure:nth-child(1) h4 {
+	color:#067a67;
+}
+#section > .ad01 figure:nth-child(2) h3,#section > .ad01 figure:nth-child(2) h4 {
+	color:#ac8020;
+}
+#section > .ad01 figure:nth-child(3) h3,#section > .ad01 figure:nth-child(3) h4 {
+	color:#771e70;
+}
+
+#section > .today h2 {
+	color:#Fff;
+	font-size:14px;
+	float:left;
+	line-height:30px;
+	text-align:center;
+	width:25%;
+	height:35px;
+	cursor:pointer;
+}
+#section > .today .title {
+	position:relative;
+	background-image:url(../images/photo03.png);
+	background-repeat:repeat-x;
+	height:35px;
+	margin:10px 0px 0px;
+}
+#section > .today .current-color {
+	color:#000;
+	background-image:url(../images/photo02.png);
+	background-size:100% 34px;
+	background-repeat:no-repeat;
+	background-position:bottom right;
+}
+#section > .today figure {
+	width:24.25%;
+	border:1px solid #a0a0a0;
+	margin:4px 0px 0px 0px;
+	float:left;
+}
+.figbgcolor {
+	background-color:rgba(153,153,153,0.4);
+}
+#section > .today .fig {
+	margin-left:1%;
+}
+#section > .today figure h3 {
+	font-size:12px;
+	color:#646464;
+	line-height:18px;
+	font-weight:normal;
+	text-align:center;
+	margin:10px 0px 0px;
+}
+#section > .today figure img {
+	width:80%;
+	display:block;
+	margin:0px 10%;
+}
+#section > .today figure h4 {
+	float:right;
+	font-size:14px;
+	icon:20px;
+	margin:0px 4px;
+	color:#cf0000;
+}
+#section > .shop hr,#section > .project hr,#section > .new hr {
+	display:inline-block;
+	width:15%;
+}
+#section > .shop hr {
+	border:1px solid #f5b9c3;
+}
+#section > .project hr {
+	border:1px solid #a0d6d3;
+}
+#section > .new hr {
+	border:1px solid #f9da8a;
+}
+
+#section > .shop h2,#section > .project h2,#section > .new h2 {
+	font-size:18px;
+	text-align:center;
+	line-height:32px;
+	margin:10px 0px;
+	color:#323232;
+}
+#section > .shop h2 span,#section > .project h2 span,#section > .new h2 span {
+	font-size:14px;
+	color:#646464;
+	margin:0px 0px 0px 5px;
+	line-height:32px;
+	font-weight:normal;
+}
+#section > .shop figure {
+	width:25%;
+	float:left;
+	border:1px solid #e1e1e1;
+}
+#section > .shop figure h3 {
+	margin:10px 0px 0px;
+	font-size:14px;
+	text-align:center;
+	line-height:24px;
+	color:#646464;
+}
+#section > .shop figure h4 {
+	font-size:12px;
+	text-align:center;
+	line-height:20px;
+	font-weight:normal;
+	color:#323232;
+}
+#section > .shop figure img {
+	width:60%;
+	margin:5px 20%;
+	display:inline-block;
+}
+#section > .ad02 img {
+	width:100%;
+	margin:10px 0px;
+}
+
+#section > .project figure {
+	position:relative;
+	width:49%;
+	float:left;
+	border:1px solid #dadada;
+	margin:0px 0px 10px;
+}
+#section > .project figure h3 {
+	font-size:16px;
+	text-align:center;
+	position:absolute;
+	top:10px;
+	left:5px;
+	padding:0px 4px;
+	line-height:30px;
+	border-radius:8px;
+	background-color:rgba(255,255,255,0.85);
+}
+#section > .project figure h4 {
+	width:80px;
+	color:#FFF;
+	font-weight:normal;
+	font-size:12px;
+	line-height:16px;
+	position:absolute;
+	top:45px;
+	left:9px;
+}
+#section > .project .fig01 {
+	background-color:#70bbc0;
+	margin-right:2%;
+}
+#section > .project .fig01 h3 {
+	color:#70bbc0;
+}
+#section > .project .fig02 {
+	background-color:#6dff93;
+}
+#section > .project .fig02 h3 {
+	color:#6dff93;
+}
+#section > .project .fig03 {
+	background-color:#fc5af6;
+	margin-right:2%;
+}
+#section > .project .fig03 h3 {
+	color:#fc5af6;
+}
+#section > .project .fig04 {
+	background-color:#ff3629;
+}
+#section > .project .fig04 h3 {
+	color:#ff3629;
+}
+#section > .project figure img {
+	width:50%;
+	margin:1%;
+	float:right;
+}
+#section > .new figure {
+	width:49%;
+	float:left;
+	border:1px solid #dadada;
+	margin:0px 0px 10px;
+	background-color:#FFF;
+}
+#section > .new .figm {
+	margin-right:2%;
+}
+#section > .new figure .img {
+	position:relative;
+	border-bottom:1px solid #dadada;
+	padding:10px;
+}
+#section > .new figure .img span {
+	color:#FFF;
+	background-color:#cc4292;
+	border-radius:6px;
+	padding:0px 8px;
+	line-height:20px;
+	font-size:14px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#section > .new figure .img img {
+	width:80%;
+	margin:10%;
+}
+#section > .new figure p {
+	padding:5px;
+	text-align:center;
+	margin:6px 0px 0px;
+	line-height:20px;
+	font-size:16px;
+	color:#323232;
+}
+#section > .new figure h4 {
+	float:left;
+	color:#cc4292;
+	font-weight:normal;
+	font-size:14px;
+	line-height:20px;
+	margin:0px 3px 2px;
+}
+#section > .new figure del {
+	float:left;
+	color:#646464;
+	font-weight:normal;
+	font-size:12px;
+	line-height:20px;
+	margin:1px 0px 2px;
+}
+#section > .new figure h6 {
+	float:right;
+	font-weight:normal;
+	font-size:12px;
+	line-height:20px;
+	margin:1px 3px 2px;
+}
+
+
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .shop h2 span,#section > .project h2 span,#section > .new h2 span,#section > .shop figure h3,#section > .project figure h3,#section > .new figure p {
+		font-size:18px;
+	}
+	#section > .hot h2,#section > .hot hgroup h4,#section .today h2,#section .today figure h4 {
+		font-size:20px;
+	}
+	#section > .ad01 figure h3,#section > .shop h2,#section > .project h2,#section > .new h2  {
+		font-size:22px;
+	}
+	#section > .today figure h3,#section > .ad01 figure h4,#section > .shop figure h4 {
+		font-size:16px;
+	}
+	#section > .project figure h4 {
+		font-size:16px;
+		top:50px;
+		line-height:20px;
+	}
+	#section > .project figure img {
+		margin:5%;
+	}
+	#section > .new figure .img span,#section > .new figure h4 {
+		font-size:16px;
+		line-height:24px;
+	}
+	#section > .new figure del,#section > .new figure h6 {
+		font-size:14px;
+		line-height:24px;
+	}
+}
+@media (min-width:481px) and (max-width:621px) {
+	
+	#section > .hot h2,#section > .hot hgroup h4,#section .today h2,#section .today figure h4 {
+		font-size:22px;
+	}
+	#section > .ad01 figure h3,#section > .shop h2,#section > .project h2,#section > .new h2  {
+		font-size:24px;
+	}
+	#section > .today figure h3,#section > .ad01 figure h4,#section > .shop figure h4,#section > .new figure h4 {
+		font-size:18px;
+	}
+	#section > .shop h2 span,#section > .project h2 span,#section > .new h2 span,#section > .shop figure h3,#section > .new figure p {
+		font-size:20px;
+	}
+	#section > .project figure h3 {
+		font-size:22px;
+		top:20px;
+		left:10px;
+		padding:0px 10px;
+	}
+	#section > .project figure h4 {
+		width:90px;
+		font-size:18px;
+		line-height:24px;
+		top:66px;
+		left:20px;
+	}
+	#section > .project figure img {
+		margin:5%;
+	}
+	#section > .new figure .img span,#section > .new figure h4 {
+		font-size:18px;
+		line-height:28px;
+	}
+	#section > .new figure del,#section > .new figure h6 {
+		font-size:16px;
+		line-height:28px;
+	}
+}
+@media (min-width:622px) {
+	#section > .hot h2,#section > .hot hgroup h4,#section .today h2,#section .today figure h4 {
+		font-size:24px;
+	}
+	
+	/*#section > .ad01 figure {
+		height:200px;
+	}*/
+	#section > .ad01 figure h4,#section .today figure h3,#section > .shop figure h4 {
+		font-size:20px;
+	}
+	#section > .ad01 figure h3,#section > .shop h2,#section > .project h2,#section > .new h2 {
+		font-size:26px;
+	}
+	#section > .shop h2 span,#section > .project h2 span,#section > .new h2 span,#section > .shop figure h3 {
+		font-size:22px;
+	}
+	#section > .project figure h3 {
+		font-size:26px;
+		top:30px;
+		left:10px;
+		padding:0px 10px;
+	}
+	#section > .project figure h4 {
+		width:120px;
+		font-size:22px;
+		line-height:30px;
+		top:86px;
+		left:20px;
+	}
+	#section > .project figure img {
+		margin:5%;
+	}
+	#section > .new figure {
+		width:24.25%;
+	}
+	#section > .new .figm {
+		margin-right:0;
+	}
+	#section > .new .figm3 {
+		margin-right:1%;
+	}
+	#section > .new figure .img span,#section > .new figure h4 {
+		font-size:18px;
+		line-height:28px;
+	}
+	#section > .new figure del,#section > .new figure h6 {
+		font-size:14px;
+		line-height:28px;
+	}
+}
+
+
+
+
+
