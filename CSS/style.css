@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	font-size:12px;
+	color:#646464;
+	font-family:"方正楷体简体",Arial,"微软雅黑";
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+article,aside,dialog,footer,header,legend,nav,section,figcaption,figure,hgroup,time,mark {
+	display:block;
+	margin:0px;
+}
+body,img,ul,li,a,p,input,h1,h2,figure,h3,h4,h5,h6,mark,figcaption,hgroup,b,dl,dt,dd {
+	margin:0px;
+	padding:0px;
+	border:none;
+	outline:none;
+	font-weight:normal;
+}
+body {
+	background-color:#f9f9f9;
+	min-width:320px;
+}
+
+img {
+	display:block; 
+	border:none;
+}
+a { 
+	text-decoration:none;
+}
+ul,li {
+	list-style:none;
+}
+.overflowH {
+	overflow:hidden;
+}
+
+#header > .search input{
+	width:76%;
+	height:44px;
+	line-height:44px;
+	border:1px solid #cc4292;
+	background-color:#f0f0f0;
+	float:left;
+	padding:0px 10px;
+	font-size:16px;
+	color:#909090;
+	display:block;
+}
+#header > .search .search-icon {
+	width:24%;
+	height:44px;
+	background-color:#cc4292;
+	display:inline-block;
+	float:left;
+}
+#header > .search .search-icon > img {
+	height:20px;
+	margin:12px 0px 10px 40%;
+}
+
+
+#footer > .copy {
+	margin:30px 8px 120px;
+}
+#footer > .copy p {
+	line-height:24px;
+	font-size:12px;
+	color:#646464;
+	text-align:center;
+}
+
+
+
+
+#rec {
+	position:fixed;
+	right:10px;
+	bottom:100px;
+	cursor:pointer;
+	display:none;
+	z-index:999;
+}
+.footmenu,.footnav {
+	position:fixed;
+	bottom:0px;
+	z-index:999;
+	background-color:#fff;
+	border:1px solid #dadada;
+	filter:Alpha(opacity = 92);
+	-webkit-opacity:0.92;
+	-moz-opacity:0.92;
+	-ms-opacity:0.92;
+	-o-opacity:0.92;
+	opacity:0.92;
+	height:50px;
+	width:100%;
+}
+.footmenu figure {
+	width:25%;
+	float:left;
+	cursor:pointer;
+}
+.footmenu figure img,.footnav figure img {
+	margin:5px auto 3px;
+	height:20px;
+}
+.footmenu .currentlogo img:nth-child(1) {
+	display:none;
+}
+.footmenu .currentlogo img:nth-child(2) {
+	display:block;
+}
+.footmenu figure img:nth-child(2) {
+	display:none;
+}
+.footmenu figure h4 {
+	text-align:center;
+	font-size:14px;
+	color:#323232;
+	line-height:20px;
+	font-weight:normal;
+}
+.color {
+	color:#cc4292 !important;
+}
+.searfix {
+	position:fixed;
+	top:0px;
+	z-index:9999;
+	width:100%;
+}
+.empty {
+	height:120px;
+}
+
+.footnav .butbox {
+	width:60%;
+	float:left;
+}
+.footnav .butbox .button {
+	width:46%;
+	float:left;
+	margin:13px 2%;
+	line-height:40px;
+	border-radius:8px;
+	background-color:#cc4292;
+	color:#FFF;
+	text-align:center;
+	font-size:18px;
+	height:40px;
+	cursor:pointer;
+}
+.footnav figure {
+	float:left;
+	width:20%;
+	cursor:pointer;
+}
+
+.footnav figure h4 {
+	width:100%;
+	display:inline-block;
+	text-align:center;
+	font-size:16px;
+	color:#cc4292;
+	line-height:20px;
+	font-weight:normal;
+}
+
+
+#header > figure {
+	background-color:#ffdff2;
+}
+#header > figure img {
+	float:left;
+	height:20px;
+	margin:12px 20px;
+	cursor:pointer;
+}
+#header > figure figcaption {
+	float:left;
+	line-height:26px;
+	margin:9px 0px;
+	padding:0px 20px;
+	border-left:1px solid #dadada;
+	font-size:16px;
+	color:#000;
+}
+
+
+@media (min-width:481px) and (max-width:621px) {
+	#header > .search input,#header > figure figcaption {
+		font-size:18px;
+	}
+	.footmenu,.footnav {
+		height:60px;
+	}
+	.footmenu figure img,.footnav figure img {
+		margin:8px auto 4px;
+		height:24px;
+	}
+	.footmenu figure h4,.footnav figure a {
+		font-size:16px;
+		line-height:20px;
+	}
+	.footnav .butbox .button {
+		height:48px;
+		line-height:48px;
+		font-size:20px;
+		margin:16px 2%;
+	}
+	#footer > .copy p {
+		line-height:24px;
+		font-size:16px;
+	}
+}
+
+@media (min-width:622px) {
+	#header > .search input,#header > .search .search-icon{
+		height:52px;
+		line-height:52px;
+		font-size:20px;
+	}
+	#header > .search .search-icon > img {
+		height:22px;
+		margin:15px 0px 15px 40%;
+	}
+	.footmenu,.footnav {
+		height:72px;
+	}
+	.footmenu figure img,.footnav figure img {
+		margin:10px auto 6px;
+		height:28px;
+	}
+	.footmenu figure h4,.footnav figure a {
+		font-size:18px;
+		line-height:20px;
+	}
+	.footnav .butbox .button {
+		height:56px;
+		line-height:56px;
+		font-size:24px;
+		margin:16px 2%;
+	}
+	#footer > .copy p,#header > figure figcaption {
+		line-height:26px;
+		font-size:20px;
+	}
+}
